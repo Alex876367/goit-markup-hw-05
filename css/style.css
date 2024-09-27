@@ -774,24 +774,20 @@ input::placeholder{
 .button-div-modal:hover{
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .button-div-modal:focus{
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .svg-div-modal{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-div-modal:hover{
-    fill: #ffffff;
-}
 
-.svg-div-modal:hover{
-    fill: #ffffff;
-}
 
 .paragraf-modal{
     font-weight: 500;
@@ -823,6 +819,7 @@ input::placeholder{
 
 .div-lable{
     position: relative;
+
 
 
 }
