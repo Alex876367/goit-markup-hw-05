@@ -903,7 +903,7 @@ input::placeholder{
 
 }
 
-.visually-hidden[type="checkbox"]:checked + .span-checkbox{
+input[type="checkbox"]:checked + span{
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
