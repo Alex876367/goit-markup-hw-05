@@ -840,6 +840,11 @@ input::placeholder{
 
 }
 
+.input-modal:focus .svg-checkbox{
+    fill: #4D5AE5;
+}
+
+
 .svg-forum-modal{
     position: absolute;
     left: 16px;
@@ -903,12 +908,15 @@ input::placeholder{
 
 }
 
-input[type="checkbox"]:checked + span{
+.input-modal+.lable-checkbox>.span-checkbox{
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
 
 }
+
+
+
 
 .modal-ahref{
     color:#4d5ae5;
