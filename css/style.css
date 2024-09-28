@@ -840,7 +840,7 @@ input::placeholder{
 
 }
 
-.input-modal:focus .svg-checkbox{
+.input-modal:focus+.lable-checkbox+.span-checkbox>.svg-checkbox{
     fill: #4D5AE5;
 }
 
